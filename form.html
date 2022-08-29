@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--This a form -->
+    <h1>Welcome to Our Dining Place!</h1>
+    <p>You may placace your order using this page!</p>
+    <form>
+        <fieldset id="one_fieldset">
+            <legend>Meal</legend>
+            <label for="food">Please Select Your Meal:</label>
+            <select id="food">
+                <option>Breakfast</option>
+                <option>Launch</option>
+                <option>Dinner</option>
+            </select>
+
+        </fieldset>
+        <fieldset id="second_fieldset">
+            <legend>Drink</legend>
+            <label for="coffee">Coffee:</label>
+            <input type="radio" name="drink" id="coffee">
+            <label for="Tea">Tea</label>
+            <input type="radio" name="drink" id="Tea">
+            <label for="Juice">Juice:</label>
+            <input type="radio" name="drink" id="Juice"><br><br>
+            <label for="water">Check here if you wish to add water to your order:</label>
+            <input type="checkbox" name="water">
+        </fieldset>
+        <fieldset id="third_fieldset">
+            <legend>Order Deatials</legend>
+            <label for="dish_number">Dish Number:</label>
+            <input type="number" min="1" max="10" name="number_for_dish"><br><br>
+
+            <label for="textarea">Chef Instructions:</label>
+            <textarea width="500" height="100" id="textarea">Please give some instructions.....</textarea>
+            <br> <br>
+            <h3>Select Side:</h3><br>
+            <label for="rice">Rice</label>
+            <input type="checkbox" name="rice" id="rice">
+            <br>
+            <label for="soup">Soup:</label>
+            <input type="checkbox" name="Soup" id="soup">
+            <br>
+            <label for="House_salad">House Salad:</label>
+            <input type="checkbox" name="house_salad" id="House_salad">
+<br>
+            <label for="mashed_potatos">Mashed Potatos:</label>
+            <input type="checkbox" name="mashed_potatos" id="mashed_potatos">
+<br>
+
+            <label for="fries">Fries:</label>
+            <input type="checkbox" name="fries" id="fries">
+        </fieldset>
+
+<h2>Please revie your ordder before you submit it!</h2>
+<input type="submit" name="submit" value="Submit Order!">
+&#160; &#160; &#160; &#160; &#160; &#160; &#160;
+<input type="submit" name="Star_over" value="Start Over">
+
+<h4>We are looking forward to serving you!</h4>
+
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
